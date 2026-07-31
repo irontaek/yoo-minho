@@ -1,0 +1,53 @@
+# 프로필을 fixearly 의 데이터에 맞춰 다시 만든다.
+#
+# 손으로 적은 값은 반드시 어긋난다 — "머지 2건"은 세 번째가 머지되는 순간 거짓이 되고,
+# 배너의 등급 분포는 코퍼스를 다시 재는 순간 낡는다. 마커 사이와 배너 SVG 만 생성하고,
+# 서사·판단은 손으로 쓴 채로 둔다.
+name: sync
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 매일 06:17 KST
+  workflow_dispatch: # 수동 실행 — PR 이 머지되면 기다리지 않고 여기서 돌린다
+  push:
+    paths:
+      - "tools/**"
+      - ".github/workflows/sync.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild impact block and banners
+        run: |
+          python3 tools/update-impact.py
+          python3 tools/make-banner.py
+
+      - name: Commit if anything moved
+        run: |
+          # 커밋 저자를 내 계정으로 둔다 — 봇 이름으로 남으면 기여로 안 잡힌다.
+          git config user.name "yoo-minho"
+          git config user.email "13810291+yoo-minho@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git diff --stat
+          git add -A
+          git commit -m "chore: fixearly 데이터에 맞춰 프로필 갱신
+
+          $(git diff --cached --stat | tail -1)"
+          git push

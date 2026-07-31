@@ -37,14 +37,14 @@ npx fixearly
 
 도구가 찾고, 손으로 검증하고, 벤치마크를 붙여 보냈습니다.
 
-| PR | 저장소 | 내용 |
-|---|---|---|
-| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) | [nocodb](https://github.com/nocodb/nocodb) · 64.4k★ | 필드 검증의 워크스페이스 사용자 조회를 O(1) 로 |
-| [outline#13117](https://github.com/outline/outline/pull/13117) | [outline](https://github.com/outline/outline) · 39.9k★ | 마크다운 임포트의 O(n²) 병합 |
+<!-- auto:impact -->
+| 머지 | 내용 |
+|---|---|
+| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.4k★ | user field validation O(n²) |
+| [outline#13117](https://github.com/outline/outline/pull/13117) · 39.9k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 세 건 — [vite](https://github.com/vitejs/vite/pull/23114),
-[medusa](https://github.com/medusajs/medusa/pull/16188), [novu](https://github.com/novuhq/novu/pull/12074).
-**닫힌 것 네 건.**
+승인 후 머지 대기 4건 — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [n8n](https://github.com/n8n-io/n8n/pull/34899), [vite](https://github.com/vitejs/vite/pull/23114). **닫힌 것 4건.**
+<!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
 GitHub API 로 생성되기 때문에 안 된 것만 조용히 빼는 게 불가능합니다.

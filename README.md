@@ -38,14 +38,14 @@ only gets in if it clears one bar:
 
 Found by the tool, verified by hand, benchmarked before sending.
 
-| PR | Repo | What |
-|---|---|---|
-| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) | [nocodb](https://github.com/nocodb/nocodb) · 64.4k★ | O(1) workspace-user lookup in field validation |
-| [outline#13117](https://github.com/outline/outline/pull/13117) | [outline](https://github.com/outline/outline) · 39.9k★ | O(n²) merge in markdown import |
+<!-- auto:impact -->
+| Merged | What |
+|---|---|
+| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.4k★ | user field validation O(n²) |
+| [outline#13117](https://github.com/outline/outline/pull/13117) · 39.9k★ | markdown import merge O(n²) |
 
-Three more approved and waiting to merge — [vite](https://github.com/vitejs/vite/pull/23114),
-[medusa](https://github.com/medusajs/medusa/pull/16188), [novu](https://github.com/novuhq/novu/pull/12074).
-**Four were closed.**
+Four more approved and waiting to merge — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [n8n](https://github.com/n8n-io/n8n/pull/34899), [vite](https://github.com/vitejs/vite/pull/23114). **Four were closed.**
+<!-- /auto:impact -->
 
 The full log — wins and losses — is [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md).
 It's generated from the GitHub API, so the ones that didn't land can't be quietly dropped.
