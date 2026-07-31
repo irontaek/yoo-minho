@@ -6,13 +6,13 @@
 <rect x="1.5" y="114.0" width="4" height="33.0" fill="#e0a53f"/>
 <rect x="1.5" y="147.0" width="4" height="33.0" fill="#e06c56"/>
 <rect x="1.5" y="180.0" width="4" height="33.0" fill="#c74a3c"/>
-<text x="44" y="72" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="750" letter-spacing="-0.8" fill="#e6edf3">Minho Yoo</text>
+<text x="44" y="72" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="40" font-weight="750" letter-spacing="-0.8" fill="#e6edf3">유민호</text>
 <text x="46" y="98" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="13" fill="#58a6ff">@yoo-minho</text>
-<text x="152" y="98" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#768390">· Seoul · @m1kapp</text>
-<text x="44" y="135" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#adbac7">I build small tools that measure the things</text>
-<text x="44" y="157" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#adbac7">people usually just argue about.</text>
-<text x="44" y="184" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#768390">JS/TS · static analysis · open-source performance</text>
-<text x="566" y="42" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="11.5" letter-spacing="0.08em" fill="#768390">74 OPEN-SOURCE REPOS · GRADED BY FIXEARLY v12</text>
+<text x="152" y="98" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#768390">· 서울 · @m1kapp</text>
+<text x="44" y="135" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="16" fill="#adbac7">사람들이 재지 않고 논쟁만 하는 것들을</text>
+<text x="44" y="157" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="16" fill="#adbac7">재는 작은 도구를 만듭니다.</text>
+<text x="44" y="184" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="12" fill="#768390">JS/TS · 정적 분석 · 오픈소스 성능 개선</text>
+<text x="566" y="42" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="12.5" letter-spacing="0.02em" fill="#768390">오픈소스 74곳 · fixearly v12 로 채점</text>
 <line x1="566" y1="152.5" x2="952" y2="152.5" stroke="#30363d" stroke-width="1"/>
 <rect x="566" y="83.4" width="46" height="68.6" rx="3" fill="#2ea88a"/>
 <text x="589.0" y="75.4" text-anchor="middle" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#adbac7">16</text>
@@ -33,5 +33,5 @@
 <text x="929.0" y="139.7" text-anchor="middle" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#adbac7">1</text>
 <text x="929.0" y="171" text-anchor="middle" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#c74a3c">E</text>
 <text x="725.0" y="188" text-anchor="middle" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="11" fill="#768390">▲</text>
-<text x="725.0" y="201" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#768390">fixearly itself: B+ 79</text>
+<text x="725.0" y="201" text-anchor="middle" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,-apple-system,'Segoe UI',sans-serif" font-size="11" fill="#768390">fixearly 자가채점 B+ 79</text>
 </svg>

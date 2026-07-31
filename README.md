@@ -4,6 +4,10 @@
 </picture>
 
 <p align="center">
+  <b>English</b> · <a href="README.ko.md">한국어</a>
+</p>
+
+<p align="center">
   <a href="https://fixearly.m1k.app"><img alt="fixearly" src="https://img.shields.io/badge/npx-fixearly-2563eb?style=flat-square&logo=npm&logoColor=white"></a>
   <a href="https://m1k.app"><img alt="m1k.app" src="https://img.shields.io/badge/m1k.app-workshop-0f1723?style=flat-square"></a>
   <a href="https://github.com/m1kapp"><img alt="@m1kapp" src="https://img.shields.io/badge/org-%40m1kapp-7c8899?style=flat-square&logo=github"></a>

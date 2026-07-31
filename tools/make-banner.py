@@ -41,8 +41,33 @@ THEME = {
 
 SANS = "ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace"
+# 한글은 mono 로 쓰면 폴백이 지저분해진다 — 본문은 sans, 숫자·핸들만 mono 로 남긴다.
+KSANS = ("'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,"
+         "-apple-system,'Segoe UI',sans-serif")
 
 ORDER = ["S", "A", "B", "C", "D", "E"]
+
+# 배너에 들어가는 문장. 언어별로 두 벌 × 테마 두 벌 = SVG 4개.
+STR = {
+    "en": dict(
+        name="Minho Yoo", meta="· Seoul · @m1kapp", body=SANS, name_size=40,
+        line1="I build small tools that measure the things",
+        line2="people usually just argue about.",
+        sub="JS/TS · static analysis · open-source performance",
+        caption="{n} OPEN-SOURCE REPOS · GRADED BY FIXEARLY {v}",
+        cap_font=MONO, cap_size=11.5, cap_track="0.08em",
+        self="fixearly itself: {g} {s}",
+    ),
+    "ko": dict(
+        name="유민호", meta="· 서울 · @m1kapp", body=KSANS, name_size=40,
+        line1="사람들이 재지 않고 논쟁만 하는 것들을",
+        line2="재는 작은 도구를 만듭니다.",
+        sub="JS/TS · 정적 분석 · 오픈소스 성능 개선",
+        caption="오픈소스 {n}곳 · fixearly {v} 로 채점",
+        cap_font=KSANS, cap_size=12.5, cap_track="0.02em",
+        self="fixearly 자가채점 {g} {s}",
+    ),
+}
 
 
 def load():
@@ -60,8 +85,8 @@ def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
-def build(t, corpus, dist):
-    c = THEME[t]
+def build(t, lang, corpus, dist):
+    c, S = THEME[t], STR[lang]
     W, H = 1000, 228
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}" role="img" aria-label="Minho Yoo">']
@@ -76,25 +101,25 @@ def build(t, corpus, dist):
                  f'fill="{c["grade"][g]}"/>')
 
     # ── 왼쪽: 이름 ──────────────────────────────────────────────
-    o.append(f'<text x="44" y="72" font-family="{SANS}" font-size="40" font-weight="750" '
-             f'letter-spacing="-0.8" fill="{c["ink"]}">Minho Yoo</text>')
+    o.append(f'<text x="44" y="72" font-family="{S["body"]}" font-size="{S["name_size"]}" '
+             f'font-weight="750" letter-spacing="-0.8" fill="{c["ink"]}">{esc(S["name"])}</text>')
     o.append(f'<text x="46" y="98" font-family="{MONO}" font-size="13" '
              f'fill="{c["accent"]}">@yoo-minho</text>')
-    o.append(f'<text x="152" y="98" font-family="{MONO}" font-size="13" '
-             f'fill="{c["ink3"]}">· Seoul · @m1kapp</text>')
-    o.append(f'<text x="44" y="135" font-family="{SANS}" font-size="16" '
-             f'fill="{c["ink2"]}">I build small tools that measure the things</text>')
-    o.append(f'<text x="44" y="157" font-family="{SANS}" font-size="16" '
-             f'fill="{c["ink2"]}">people usually just argue about.</text>')
-    o.append(f'<text x="44" y="184" font-family="{MONO}" font-size="12" '
-             f'fill="{c["ink3"]}">JS/TS · static analysis · open-source performance</text>')
+    o.append(f'<text x="152" y="98" font-family="{S["body"]}" font-size="13" '
+             f'fill="{c["ink3"]}">{esc(S["meta"])}</text>')
+    o.append(f'<text x="44" y="135" font-family="{S["body"]}" font-size="16" '
+             f'fill="{c["ink2"]}">{esc(S["line1"])}</text>')
+    o.append(f'<text x="44" y="157" font-family="{S["body"]}" font-size="16" '
+             f'fill="{c["ink2"]}">{esc(S["line2"])}</text>')
+    o.append(f'<text x="44" y="184" font-family="{S["body"]}" font-size="12" '
+             f'fill="{c["ink3"]}">{esc(S["sub"])}</text>')
 
     # ── 오른쪽: 코퍼스 등급 분포 ───────────────────────────────
     x0, base, bw, gap = 566, 152, 46, 22
     top, mx = 62, max(dist.values())
-    o.append(f'<text x="{x0}" y="42" font-family="{MONO}" font-size="11.5" '
-             f'letter-spacing="0.08em" fill="{c["ink3"]}">'
-             f'{corpus["n"]} OPEN-SOURCE REPOS · GRADED BY FIXEARLY {corpus["version"]}</text>')
+    o.append(f'<text x="{x0}" y="42" font-family="{S["cap_font"]}" font-size="{S["cap_size"]}" '
+             f'letter-spacing="{S["cap_track"]}" fill="{c["ink3"]}">'
+             f'{esc(S["caption"].format(n=corpus["n"], v=corpus["version"]))}</text>')
     o.append(f'<line x1="{x0}" y1="{base+.5}" x2="{x0+6*bw+5*gap}" y2="{base+.5}" '
              f'stroke="{c["border"]}" stroke-width="1"/>')
 
@@ -115,9 +140,9 @@ def build(t, corpus, dist):
     bx = x0 + ORDER.index(SELF["grade"][0]) * (bw + gap) + bw / 2
     o.append(f'<text x="{bx}" y="{base+36}" text-anchor="middle" font-family="{MONO}" '
              f'font-size="11" fill="{c["ink3"]}">▲</text>')
-    o.append(f'<text x="{bx}" y="{base+49}" text-anchor="middle" font-family="{MONO}" '
+    o.append(f'<text x="{bx}" y="{base+49}" text-anchor="middle" font-family="{S["body"]}" '
              f'font-size="11" fill="{c["ink3"]}">'
-             f'fixearly itself: {SELF["grade"]} {SELF["score"]}</text>')
+             f'{esc(S["self"].format(g=SELF["grade"], s=SELF["score"]))}</text>')
 
     o.append("</svg>")
     return "\n".join(o) + "\n"
@@ -125,9 +150,11 @@ def build(t, corpus, dist):
 
 corpus, dist = load()
 os.makedirs(f"{ROOT}/assets", exist_ok=True)
-for t in THEME:
-    p = f"{ROOT}/assets/banner-{t}.svg"
-    open(p, "w", encoding="utf-8").write(build(t, corpus, dist))
-    print(f"  assets/banner-{t}.svg  {os.path.getsize(p)}B")
+for lang in STR:
+    for t in THEME:
+        tag = "" if lang == "en" else f"-{lang}"
+        p = f"{ROOT}/assets/banner{tag}-{t}.svg"
+        open(p, "w", encoding="utf-8").write(build(t, lang, corpus, dist))
+        print(f"  assets/banner{tag}-{t}.svg  {os.path.getsize(p)}B")
 print(f"  코퍼스 {corpus['n']}곳 {corpus['version']} · "
       + " ".join(f"{k}{dist[k]}" for k in ORDER))
