@@ -41,10 +41,11 @@ Found by the tool, verified by hand, benchmarked before sending.
 <!-- auto:impact -->
 | Merged | What |
 |---|---|
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 198.9k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.4k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 39.9k★ | markdown import merge O(n²) |
 
-Four more approved and waiting to merge — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [n8n](https://github.com/n8n-io/n8n/pull/34899), [vite](https://github.com/vitejs/vite/pull/23114). **Four were closed.**
+Three more approved and waiting to merge — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [vite](https://github.com/vitejs/vite/pull/23114). **Five were closed.**
 <!-- /auto:impact -->
 
 The full log — wins and losses — is [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md).

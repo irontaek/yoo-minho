@@ -40,10 +40,11 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 198.9k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.4k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 39.9k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 4건 — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [n8n](https://github.com/n8n-io/n8n/pull/34899), [vite](https://github.com/vitejs/vite/pull/23114). **닫힌 것 4건.**
+승인 후 머지 대기 3건 — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [vite](https://github.com/vitejs/vite/pull/23114). **닫힌 것 5건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
