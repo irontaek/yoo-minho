@@ -76,6 +76,22 @@ formychildren(비공개) — 아이 생일 선물로 만든 게임이고, 여기
 
 ---
 
+## 📊 활동
+
+<p align="center">
+  <img height="165" src="https://streak-stats.demolab.com?user=yoo-minho&hide_border=true&background=0D1117&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="streak stats" />
+</p>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=yoo-minho&bg_color=0D1117&color=8B949E&line=2563EB&point=58A6FF&area=true&area_color=2563EB&hide_border=true&radius=8" alt="contribution activity graph" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoo-minho/yoo-minho/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoo-minho/yoo-minho/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/yoo-minho/yoo-minho/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+---
+
 ## 그 밖에
 
 **[nuxt-seo](https://github.com/harlan-zw/nuxt-seo)** 기여자.
