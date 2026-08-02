@@ -1,11 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Minho Yoo — I build small tools that measure the things people usually just argue about. 74 open-source repos graded by fixearly: S 16, A 21, B 16, C 14, D 6, E 1." src="assets/banner-light.svg" width="100%">
+  <img alt="유민호 — 사람들이 재지 않고 논쟁만 하는 것들을 재는 작은 도구를 만듭니다. JS/TS · 정적 분석 · 오픈소스 성능 개선." src="assets/banner-light.svg" width="100%">
 </picture>
-
-<p align="center">
-  <b>English</b> · <a href="README.ko.md">한국어</a>
-</p>
 
 <p align="center">
   <a href="https://fixearly.m1k.app"><img alt="fixearly" src="https://img.shields.io/badge/npx-fixearly-2563eb?style=flat-square&logo=npm&logoColor=white"></a>
@@ -15,70 +11,68 @@
 
 ---
 
-## 🔬 fixearly
+## 🧰 [M1K Projects](https://github.com/m1kapp)
 
-**[m1kapp/fixearly](https://github.com/m1kapp/fixearly)** · **[fixearly.m1k.app](https://fixearly.m1k.app)**
+만드는 것은 전부 한 org 에 모아두고, 지도는 **[m1k.app](https://m1k.app)** 에 있습니다.
+있었으면 해서 만든 작은 도구들이고, 아래는 전부 지금 돌아갑니다.
 
-A JS/TS analyzer that scores **the cost of changing this code later** — not style, not coverage.
-Fully local, no upload, no config:
+| | 주소 | 하는 일 |
+|---|---|---|
+| **[fixearly](https://github.com/m1kapp/fixearly)** | [fixearly.m1k.app](https://fixearly.m1k.app) | JS/TS 를 *변경 비용*으로 채점 · 오픈소스 74곳 기준선 |
+| **핫컷 / ytcc** <sub>(비공개)</sub> | [ytcc-next.vercel.app](https://ytcc-next.vercel.app) | 영상의 최고 순간을 댓글이 찾아줍니다 |
+| **[Claude Run](https://github.com/m1kapp/claude-rank)** | [claude-rank](https://claude-rank-theta.vercel.app) | 제출된 usage-report 로 만드는 Claude 구독 가성비 랭킹 |
+| **[PromptWing](https://github.com/m1kapp/promptwing)** | [promptwing.vercel.app](https://promptwing.vercel.app) | AI 이미지 프롬프트 스튜디오 |
+| **[logodown](https://github.com/m1kapp/logodown)** | [logodown.vercel.app](https://logodown.vercel.app) | 마크다운 쓰듯 로고 만들기 |
+| **[kit](https://github.com/m1kapp/kit)** | [kit-inky.vercel.app](https://kit-inky.vercel.app) | 위 것들이 공유하는 UI 킷 |
+| **[m1kskills](https://github.com/m1kapp/m1kskills)** | — | 어느 AI 도구에나 붙여 쓰는 마크다운 스킬 |
+
+<sub>그 외: [중위소득 계산기](https://median-income-calc.vercel.app) ·
+formychildren(비공개) — 아이 생일 선물로 만든 게임이고, 여기서 유일하게 진짜 사용자가 있습니다.</sub>
+
+<details>
+<summary><b>fixearly 자세히</b> — 나중에 이 코드를 고칠 때 드는 비용을 재는 JS/TS 분석기</summary>
+
+<br>
+
+스타일도, 커버리지도 아닙니다. 100% 로컬, 업로드 없음, 설정 없음:
 
 ```bash
 npx fixearly
 ```
 
-The point isn't the grade. It's that the grade has to be **falsifiable**. So the ruler gets tested
-against real code — the **74 open-source repos** in the banner are the baseline — and a scoring axis
-only gets in if it clears one bar:
+요점은 등급이 아니라 그 등급이 **반증 가능해야 한다**는 겁니다. 그래서 자를 실제 코드에 댑니다 —
+배너에 있는 **오픈소스 74곳**이 그 기준선이고, 채점축은 하나의 바를 넘어야만 들어옵니다.
 
 > [!NOTE]
-> An axis has to **move the score** *and* **produce a pull request a maintainer actually merges**.
-> Four candidate axes passed the statistics and were cut anyway, because nothing shippable came out of them.
+> 축은 **점수를 움직여야 하고**, 동시에 **메인테이너가 실제로 머지하는 PR 이 나와야** 합니다.
+> 통계는 통과했는데 들고 갈 게 안 나와서 잘라낸 후보 축이 네 개 있습니다.
 
-### Merged
-
-Found by the tool, verified by hand, benchmarked before sending.
+**머지된 것** — 도구가 찾고, 손으로 검증하고, 벤치마크를 붙여 보냈습니다.
 
 <!-- auto:impact -->
-| Merged | What |
+| 머지 | 내용 |
 |---|---|
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 198.9k★ | resource-mapper schema validation O(n²) |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 199k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.4k★ | user field validation O(n²) |
-| [outline#13117](https://github.com/outline/outline/pull/13117) · 39.9k★ | markdown import merge O(n²) |
+| [outline#13117](https://github.com/outline/outline/pull/13117) · 40k★ | markdown import merge O(n²) |
 
-Three more approved and waiting to merge — [novu](https://github.com/novuhq/novu/pull/12074), [medusa](https://github.com/medusajs/medusa/pull/16188), [vite](https://github.com/vitejs/vite/pull/23114). **Five were closed.**
+승인 후 머지 대기 2건 — [medusa](https://github.com/medusajs/medusa/pull/16188), [vite](https://github.com/vitejs/vite/pull/23114). **닫힌 것 5건.**
 <!-- /auto:impact -->
 
-The full log — wins and losses — is [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md).
-It's generated from the GitHub API, so the ones that didn't land can't be quietly dropped.
+이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
+GitHub API 로 생성되기 때문에 안 된 것만 조용히 빼는 게 불가능합니다.
 
-> Checkable, not claimed — the contributor graphs of
-> [nocodb](https://github.com/nocodb/nocodb/graphs/contributors) and
-> [outline](https://github.com/outline/outline/graphs/contributors) list me.
+> 주장이 아니라 확인 가능합니다 —
+> [nocodb](https://github.com/nocodb/nocodb/graphs/contributors) 와
+> [outline](https://github.com/outline/outline/graphs/contributors) 의 컨트리뷰터 목록에 있습니다.
 
----
-
-## 🧰 [@m1kapp](https://github.com/m1kapp) — the workshop
-
-Everything I ship lives in one org, mapped at **[m1k.app](https://m1k.app)**. Small tools, each one
-built because I wanted it to exist. All of these are live right now.
-
-| | Live | What it does |
-|---|---|---|
-| **[fixearly](https://github.com/m1kapp/fixearly)** | [fixearly.m1k.app](https://fixearly.m1k.app) | Scores JS/TS by *change cost*, benchmarked on 74 OSS repos |
-| **핫컷 / ytcc** <sub>(private)</sub> | [ytcc-next.vercel.app](https://ytcc-next.vercel.app) | Finds a video's best moment from its own comments |
-| **[Claude Run](https://github.com/m1kapp/claude-rank)** | [claude-rank](https://claude-rank-theta.vercel.app) | Claude subscription value leaderboard, from submitted usage reports |
-| **[PromptWing](https://github.com/m1kapp/promptwing)** | [promptwing.vercel.app](https://promptwing.vercel.app) | AI image prompt studio |
-| **[logodown](https://github.com/m1kapp/logodown)** | [logodown.vercel.app](https://logodown.vercel.app) | Make logos the way you write markdown |
-| **[kit](https://github.com/m1kapp/kit)** | [kit-inky.vercel.app](https://kit-inky.vercel.app) | The shared UI kit the rest of these are built from |
-| **[m1kskills](https://github.com/m1kapp/m1kskills)** | — | Markdown prompt-skills, portable to any AI tool |
-
-<sub>Also: [중위소득 계산기](https://median-income-calc.vercel.app) (Korean income calculator) ·
-formychildren (private) — a birthday game for my kid, and the only thing here with a
-real user.</sub>
+</details>
 
 ---
 
-## 📊 activity
+## 📊 활동
+
+스트릭, 1년치 잔디, 그리고 그 잔디를 먹는 뱀.
 
 <p align="center">
   <img height="165" src="https://streak-stats.demolab.com?user=yoo-minho&hide_border=true&background=0D1117&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="streak stats" />
@@ -94,12 +88,12 @@ real user.</sub>
 
 ---
 
-## Elsewhere
+## 그 밖에
 
-Contributor to **[nuxt-seo](https://github.com/harlan-zw/nuxt-seo)**.
-Earlier and now retired: [teamlog](https://github.com/yoo-minho/teamlog-front) (team blogging) ·
-[cutin](https://github.com/yoo-minho/cutin) (basketball video editing).
-I write at [uminoh.tistory.com](https://uminoh.tistory.com/).
+**[nuxt-seo](https://github.com/harlan-zw/nuxt-seo)** 기여자.
+예전에 만들었고 지금은 접은 것: [teamlog](https://github.com/yoo-minho/teamlog-front)(팀 블로그) ·
+[cutin](https://github.com/yoo-minho/cutin)(농구 영상 편집).
+글은 [uminoh.tistory.com](https://uminoh.tistory.com/) 에 씁니다.
 
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-black?style=flat-square&logo=typescript&logoColor=3178C6">
@@ -109,7 +103,3 @@ I write at [uminoh.tistory.com](https://uminoh.tistory.com/).
   <img alt="Prisma" src="https://img.shields.io/badge/Prisma-black?style=flat-square&logo=prisma&logoColor=2D3748">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-black?style=flat-square&logo=postgresql&logoColor=4169E1">
 </p>
-
-<sub>The banner isn't decoration — it's the live grade distribution of the fixearly corpus, regenerated
-by <a href="tools/make-banner.py"><code>tools/make-banner.py</code></a>. The ▲ marks where fixearly
-scores itself.</sub>

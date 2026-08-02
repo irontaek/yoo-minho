@@ -23,8 +23,6 @@ CHECK = "--check" in sys.argv
 
 BEGIN = "<!-- auto:impact -->"
 END = "<!-- /auto:impact -->"
-WORD = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
-        6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"}
 
 
 def fetch(path):
@@ -42,7 +40,7 @@ def link(f):
     return f"https://github.com/{f['repo']}/pull/{f['pr']}"
 
 
-def block(findings, lang):
+def block(findings):
     merged = [f for f in findings if f.get("status") == "merged"]
     # 최근 머지가 위로. 세 번째가 붙어도 순서가 유지된다.
     merged.sort(key=lambda f: f.get("mergedAt") or "", reverse=True)
@@ -51,38 +49,27 @@ def block(findings, lang):
 
     out = []
     # 저장소 이름을 따로 열로 두면 PR 열과 겹친다. 별 수만 붙여 한 열로.
-    out += (["| Merged | What |", "|---|---|"] if lang == "en"
-            else ["| 머지 | 내용 |", "|---|---|"])
+    out += ["| 머지 | 내용 |", "|---|---|"]
     for f in merged:
         name, stars = repo_short(f)
-        title = (f.get("titleEn") or f["title"]) if lang == "en" else f["title"]
         star = f" · {stars}★" if stars else ""
-        out.append(f"| [{name}#{f['pr']}]({link(f)}){star} | {title} |")
+        out.append(f"| [{name}#{f['pr']}]({link(f)}){star} | {f['title']} |")
     out.append("")
 
     names = ", ".join(f"[{repo_short(f)[0]}]({link(f)})" for f in approved)
-    if lang == "en":
-        parts = []
-        if approved:
-            n = WORD.get(len(approved), str(len(approved)))
-            parts.append(f"{n} more approved and waiting to merge — {names}.")
-        if closed:
-            parts.append(f"**{WORD.get(len(closed), str(len(closed)))} were closed.**")
-        out.append(" ".join(parts))
-    else:
-        parts = []
-        if approved:
-            parts.append(f"승인 후 머지 대기 {len(approved)}건 — {names}.")
-        if closed:
-            parts.append(f"**닫힌 것 {len(closed)}건.**")
-        out.append(" ".join(parts))
+    parts = []
+    if approved:
+        parts.append(f"승인 후 머지 대기 {len(approved)}건 — {names}.")
+    if closed:
+        parts.append(f"**닫힌 것 {len(closed)}건.**")
+    out.append(" ".join(parts))
     return BEGIN + "\n" + "\n".join(out) + "\n" + END
 
 
 findings = fetch("impact.json")["findings"]
 changed, problems = [], []
 
-for fname, lang in (("README.md", "en"), ("README.ko.md", "ko")):
+for fname in ("README.md",):
     p = f"{ROOT}/{fname}"
     if not os.path.exists(p):
         problems.append(f"{fname} 없음")
@@ -92,7 +79,7 @@ for fname, lang in (("README.md", "en"), ("README.ko.md", "ko")):
     if not m:
         problems.append(f"{fname} 에 {BEGIN} 마커가 없다")
         continue
-    want = block(findings, lang)
+    want = block(findings)
     if m.group(0) != want:
         changed.append(fname)
         if not CHECK:
