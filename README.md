@@ -55,12 +55,12 @@ npx fixearly
 | [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 35.6k★ | cart variant lookup O(n²) |
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 35.6k★ | translations batch match O(n²) |
 | [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 54.7k★ | growth stats 집계 3회 직렬 |
-| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 82.2k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 199.4k★ | resource-mapper schema validation O(n²) |
+| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 82.3k★ | pure CSS 청크 선형 조회 |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 199.8k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.4k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40k★ | markdown import merge O(n²) |
 
-**닫힌 것 5건.**
+**닫힌 것 7건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
