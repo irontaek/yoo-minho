@@ -14,7 +14,7 @@ jobs:
       - uses: Platane/snk@v3
         id: snake
         with:
-          github_user_name: yoo-minho
+          github_user_name: irontaek
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
