@@ -77,7 +77,7 @@ GitHub API 로 생성되기 때문에 안 된 것만 조용히 빼는 게 불가
 
 ## 📊 활동
 
-스트릭, 1년치 잔디, 그리고 그 잔디를 먹는 뱀.
+스트릭과 1년치 잔디.
 
 <p align="center">
   <img height="165" src="https://streak-stats.demolab.com?user=irontaek&hide_border=true&background=0D1117&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="streak stats" />
@@ -85,19 +85,13 @@ GitHub API 로 생성되기 때문에 안 된 것만 조용히 빼는 게 불가
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=irontaek&bg_color=0D1117&color=8B949E&line=2563EB&point=58A6FF&area=true&area_color=2563EB&hide_border=true&radius=8" alt="contribution activity graph" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoo-minho/yoo-minho/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoo-minho/yoo-minho/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/yoo-minho/yoo-minho/output/github-snake-dark.svg" width="100%" />
-</picture>
-
 ---
 
 ## 그 밖에
 
 **[nuxt-seo](https://github.com/harlan-zw/nuxt-seo)** 기여자.
-예전에 만들었고 지금은 접은 것: [teamlog](https://github.com/yoo-minho/teamlog-front)(팀 블로그) ·
-[cutin](https://github.com/yoo-minho/cutin)(농구 영상 편집).
+예전에 만들었고 지금은 접은 것: [teamlog](https://github.com/irontaek/teamlog-front)(팀 블로그) ·
+[cutin](https://github.com/irontaek/cutin)(농구 영상 편집).
 글은 [uminoh.tistory.com](https://uminoh.tistory.com/) 에 씁니다.
 
 <p>

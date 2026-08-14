@@ -31,7 +31,7 @@ KSANS = ("'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',ui-sans-serif,"
          "-apple-system,'Segoe UI',sans-serif")
 
 STR = dict(
-    name="유민호", handle="@yoo-minho", meta="· 서울 · @m1kapp",
+    name="유민호", handle="@irontaek", meta="· 서울 · @m1kapp",
     line1="사람들이 재지 않고 논쟁만 하는 것들을",
     line2="재는 작은 도구를 만듭니다.",
     sub="JS/TS · 정적 분석 · 오픈소스 성능 개선",
