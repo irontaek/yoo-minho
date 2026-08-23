@@ -52,14 +52,17 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
-| [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 54.7k★ | member 통계 안 미사용 Map |
-| [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 35.7k★ | cart variant lookup O(n²) |
-| [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 35.7k★ | translations batch match O(n²) |
-| [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 54.7k★ | growth stats 집계 3회 직렬 |
-| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 82.3k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 200.2k★ | resource-mapper schema validation O(n²) |
-| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.5k★ | user field validation O(n²) |
-| [outline#13117](https://github.com/outline/outline/pull/13117) · 40.1k★ | markdown import merge O(n²) |
+| [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.2k★ | 의존성 분할 안 미사용 Set |
+| [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
+| [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.3k★ | in-depth analytics 순차 await |
+| [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55k★ | member 통계 안 미사용 Map |
+| [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 36k★ | cart variant lookup O(n²) |
+| [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36k★ | translations batch match O(n²) |
+| [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55k★ | growth stats 집계 3회 직렬 |
+| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 82.5k★ | pure CSS 청크 선형 조회 |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 202k★ | resource-mapper schema validation O(n²) |
+| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.7k★ | user field validation O(n²) |
+| [outline#13117](https://github.com/outline/outline/pull/13117) · 40.3k★ | markdown import merge O(n²) |
 
 **닫힌 것 10건.**
 <!-- /auto:impact -->
