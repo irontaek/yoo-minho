@@ -52,6 +52,7 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [mongoose#16474](https://github.com/Automattic/mongoose/pull/16474) · 27.5k★ | bulkSave 오류 문서 반복 매칭 |
 | [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.2k★ | 의존성 분할 안 미사용 Set |
 | [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
 | [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.3k★ | in-depth analytics 순차 await |
