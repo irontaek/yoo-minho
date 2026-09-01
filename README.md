@@ -62,7 +62,7 @@ npx fixearly
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.1k★ | translations batch match O(n²) |
 | [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.1k★ | growth stats 집계 3회 직렬 |
 | [vite#23114](https://github.com/vitejs/vite/pull/23114) · 82.6k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 202.8k★ | resource-mapper schema validation O(n²) |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 203k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.8k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.4k★ | markdown import merge O(n²) |
 
