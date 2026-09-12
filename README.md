@@ -66,7 +66,7 @@ npx fixearly
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.9k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.5k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 1건 — [n8n](https://github.com/n8n-io/n8n/pull/37047). **닫힌 것 17건.**
+승인 후 머지 대기 2건 — [n8n](https://github.com/n8n-io/n8n/pull/37047), [angular](https://github.com/angular/angular/pull/70690). **닫힌 것 17건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
