@@ -52,21 +52,22 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [rollup#6506](https://github.com/rollup/rollup/pull/6506) · 26.3k★ | watch 재실행 결과를 안 기다림 |
 | [openstatus#2583](https://github.com/openstatusHQ/openstatus/pull/2583) · 9.1k★ | 페이지 monitor 검증 뒤 중복 조회 |
 | [mongoose#16474](https://github.com/Automattic/mongoose/pull/16474) · 27.5k★ | bulkSave 오류 문서 반복 매칭 |
 | [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.5k★ | 의존성 분할 안 미사용 Set |
 | [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
 | [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.3k★ | in-depth analytics 순차 await |
 | [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.3k★ | member 통계 안 미사용 Map |
-| [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 36.2k★ | cart variant lookup O(n²) |
-| [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.2k★ | translations batch match O(n²) |
+| [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 36.3k★ | cart variant lookup O(n²) |
+| [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.3k★ | translations batch match O(n²) |
 | [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.3k★ | growth stats 집계 3회 직렬 |
 | [vite#23114](https://github.com/vitejs/vite/pull/23114) · 82.8k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 204k★ | resource-mapper schema validation O(n²) |
-| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 64.9k★ | user field validation O(n²) |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 204.3k★ | resource-mapper schema validation O(n²) |
+| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.5k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 2건 — [n8n](https://github.com/n8n-io/n8n/pull/37047), [angular](https://github.com/angular/angular/pull/70690). **닫힌 것 17건.**
+승인 후 머지 대기 2건 — [n8n](https://github.com/n8n-io/n8n/pull/37047), [angular](https://github.com/angular/angular/pull/70690). **닫힌 것 20건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
