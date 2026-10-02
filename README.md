@@ -52,24 +52,26 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
-| [astro#17987](https://github.com/withastro/astro/pull/17987) · 62.9k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
+| [angular#70977](https://github.com/angular/angular/pull/70977) · 101k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
+| [react#37699](https://github.com/facebook/react/pull/37699) · 250.9k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
+| [astro#17987](https://github.com/withastro/astro/pull/17987) · 63k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
 | [angular#70690](https://github.com/angular/angular/pull/70690) · 101k★ | 템플릿 파이프라인의 쓰기만 하는 컬렉션 |
 | [rollup#6506](https://github.com/rollup/rollup/pull/6506) · 26.3k★ | watch 재실행 결과를 안 기다림 |
-| [openstatus#2583](https://github.com/openstatusHQ/openstatus/pull/2583) · 9.1k★ | 페이지 monitor 검증 뒤 중복 조회 |
+| [openstatus#2583](https://github.com/openstatusHQ/openstatus/pull/2583) · 9.2k★ | 페이지 monitor 검증 뒤 중복 조회 |
 | [mongoose#16474](https://github.com/Automattic/mongoose/pull/16474) · 27.5k★ | bulkSave 오류 문서 반복 매칭 |
 | [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.7k★ | 의존성 분할 안 미사용 Set |
 | [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
-| [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.4k★ | in-depth analytics 순차 await |
-| [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.4k★ | member 통계 안 미사용 Map |
+| [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.5k★ | in-depth analytics 순차 await |
+| [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.5k★ | member 통계 안 미사용 Map |
 | [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 36.5k★ | cart variant lookup O(n²) |
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.5k★ | translations batch match O(n²) |
-| [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.4k★ | growth stats 집계 3회 직렬 |
-| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 83k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 206.1k★ | resource-mapper schema validation O(n²) |
+| [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.5k★ | growth stats 집계 3회 직렬 |
+| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 83.1k★ | pure CSS 청크 선형 조회 |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 206.4k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.1k★ | user field validation O(n²) |
-| [outline#13117](https://github.com/outline/outline/pull/13117) · 40.7k★ | markdown import merge O(n²) |
+| [outline#13117](https://github.com/outline/outline/pull/13117) · 40.8k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 2건 — [n8n](https://github.com/n8n-io/n8n/pull/37047), [angular](https://github.com/angular/angular/pull/70977). **닫힌 것 23건.**
+**닫힌 것 25건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
