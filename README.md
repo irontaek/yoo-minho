@@ -52,6 +52,7 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 206.4k★ | credential 삭제 완료 전 명령 종료 |
 | [angular#70977](https://github.com/angular/angular/pull/70977) · 101k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
 | [react#37699](https://github.com/facebook/react/pull/37699) · 250.9k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
 | [astro#17987](https://github.com/withastro/astro/pull/17987) · 63k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
@@ -71,7 +72,7 @@ npx fixearly
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.1k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.8k★ | markdown import merge O(n²) |
 
-**닫힌 것 25건.**
+승인 후 머지 대기 1건 — [angular](https://github.com/angular/angular/pull/71119). **닫힌 것 25건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
