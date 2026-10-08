@@ -52,11 +52,15 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [ghost#31019](https://github.com/TryGhost/Ghost/pull/31019) · 55.5k★ | 댓글 신고 이메일의 조회 3회 직렬 |
+| [Babylon.js#18980](https://github.com/BabylonJS/Babylon.js/pull/18980) · 26.1k★ | 채우기만 하고 읽지 않는 Map |
+| [rollup#6534](https://github.com/rollup/rollup/pull/6534) · 26.3k★ | ES 청크 재내보내기 이름 반복 검색 |
+| [angular#71119](https://github.com/angular/angular/pull/71119) · 101k★ | ::ng-deep 감지 정규식 lastIndex 누수 |
 | [mikro-orm#8393](https://github.com/mikro-orm/mikro-orm/pull/8393) · 9.2k★ | upsertMany 재조회 행을 엔티티마다 전부 비교 |
 | [mikro-orm#8392](https://github.com/mikro-orm/mikro-orm/pull/8392) · 9.2k★ | M:N 소유 측 populate 가 부모마다 자식 전체를 다시 훑고 indexOf 로 정렬 |
 | [orval#4254](https://github.com/orval-labs/orval/pull/4254) · 6.5k★ | 읽지 않는 Set 이 리팩터 뒤에 남음 |
 | [mikro-orm#8391](https://github.com/mikro-orm/mikro-orm/pull/8391) · 9.2k★ | M:N 역방향 populate 가 부모마다 자식 전체를 다시 훑음 |
-| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 206.7k★ | credential 삭제 완료 전 명령 종료 |
+| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 206.8k★ | credential 삭제 완료 전 명령 종료 |
 | [angular#70977](https://github.com/angular/angular/pull/70977) · 101k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
 | [react#37699](https://github.com/facebook/react/pull/37699) · 250.9k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
 | [astro#17987](https://github.com/withastro/astro/pull/17987) · 63.1k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
@@ -64,7 +68,7 @@ npx fixearly
 | [rollup#6506](https://github.com/rollup/rollup/pull/6506) · 26.3k★ | watch 재실행 결과를 안 기다림 |
 | [openstatus#2583](https://github.com/openstatusHQ/openstatus/pull/2583) · 9.2k★ | 페이지 monitor 검증 뒤 중복 조회 |
 | [mongoose#16474](https://github.com/Automattic/mongoose/pull/16474) · 27.5k★ | bulkSave 오류 문서 반복 매칭 |
-| [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.7k★ | 의존성 분할 안 미사용 Set |
+| [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.8k★ | 의존성 분할 안 미사용 Set |
 | [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
 | [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.5k★ | in-depth analytics 순차 await |
 | [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.5k★ | member 통계 안 미사용 Map |
@@ -72,11 +76,11 @@ npx fixearly
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.6k★ | translations batch match O(n²) |
 | [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.5k★ | growth stats 집계 3회 직렬 |
 | [vite#23114](https://github.com/vitejs/vite/pull/23114) · 83.2k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 206.7k★ | resource-mapper schema validation O(n²) |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 206.8k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.2k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.8k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 1건 — [angular](https://github.com/angular/angular/pull/71119). **닫힌 것 25건.**
+**닫힌 것 25건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
