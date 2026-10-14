@@ -52,29 +52,30 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [angular#71267](https://github.com/angular/angular/pull/71267) · 101.1k★ | output 마이그레이션 ID 의 .d.ts 정규화 결과를 버림 |
 | [Babylon.js#18990](https://github.com/BabylonJS/Babylon.js/pull/18990) · 26.2k★ | 인스펙터 v2 애니메이션 창이 자식 애니메이션을 버림 |
 | [burn-my-windows#583](https://github.com/Schneegans/Burn-My-Windows/pull/583) · 3.1k★ | v26 설정 이전에서 flame·claw 키 이름 변경이 버려짐 |
-| [super-productivity#10607](https://github.com/super-productivity/super-productivity/pull/10607) · 22.7k★ | 채우기만 하고 읽지 않는 Map 3개 |
+| [super-productivity#10607](https://github.com/super-productivity/super-productivity/pull/10607) · 22.8k★ | 채우기만 하고 읽지 않는 Map 3개 |
 | [tegaki#77](https://github.com/gkurt/tegaki/pull/77) · 3.1k★ | 손글씨 획 생성기의 쓰기만 하는 Map·Set |
-| [cline#14974](https://github.com/cline/cline/pull/14974) · 70.1k★ | 보내는 쪽이 사라진 구독 스트림 |
+| [cline#14974](https://github.com/cline/cline/pull/14974) · 70.3k★ | 보내는 쪽이 사라진 구독 스트림 |
 | [jupyterlab#20008](https://github.com/jupyterlab/jupyterlab/pull/20008) · 15.4k★ | 설정 검색이 중첩 속성을 못 찾는다 |
-| [readest#6687](https://github.com/readest/readest/pull/6687) · 25k★ | RAG 색인 상태 Map 쓰기만 함 |
-| [cherry-studio#21363](https://github.com/CherryHQ/cherry-studio/pull/21363) · 52.5k★ | 채우기만 하고 읽지 않는 Map 3개 |
+| [readest#6687](https://github.com/readest/readest/pull/6687) · 25.2k★ | RAG 색인 상태 Map 쓰기만 함 |
+| [cherry-studio#21363](https://github.com/CherryHQ/cherry-studio/pull/21363) · 52.6k★ | 채우기만 하고 읽지 않는 Map 3개 |
 | [turborepo#14433](https://github.com/vercel/turborepo/pull/14433) · 31.2k★ | 중복 검사 Set 을 안 읽어 codemod 가 중복 이름을 만듦 |
-| [promptfoo#11464](https://github.com/promptfoo/promptfoo/pull/11464) · 25.9k★ | 실패 테스트 재실행이 추출 테스트마다 전부 다시 직렬화 |
+| [promptfoo#11464](https://github.com/promptfoo/promptfoo/pull/11464) · 26k★ | 실패 테스트 재실행이 추출 테스트마다 전부 다시 직렬화 |
 | [ghost#31019](https://github.com/TryGhost/Ghost/pull/31019) · 55.5k★ | 댓글 신고 이메일의 조회 3회 직렬 |
 | [Babylon.js#18980](https://github.com/BabylonJS/Babylon.js/pull/18980) · 26.2k★ | 채우기만 하고 읽지 않는 Map |
 | [rollup#6534](https://github.com/rollup/rollup/pull/6534) · 26.3k★ | ES 청크 재내보내기 이름 반복 검색 |
-| [angular#71119](https://github.com/angular/angular/pull/71119) · 101k★ | ::ng-deep 감지 정규식 lastIndex 누수 |
+| [angular#71119](https://github.com/angular/angular/pull/71119) · 101.1k★ | ::ng-deep 감지 정규식 lastIndex 누수 |
 | [mikro-orm#8393](https://github.com/mikro-orm/mikro-orm/pull/8393) · 9.2k★ | upsertMany 재조회 행을 엔티티마다 전부 비교 |
 | [mikro-orm#8392](https://github.com/mikro-orm/mikro-orm/pull/8392) · 9.2k★ | M:N 소유 측 populate 가 부모마다 자식 전체를 다시 훑고 indexOf 로 정렬 |
 | [orval#4254](https://github.com/orval-labs/orval/pull/4254) · 6.5k★ | 읽지 않는 Set 이 리팩터 뒤에 남음 |
 | [mikro-orm#8391](https://github.com/mikro-orm/mikro-orm/pull/8391) · 9.2k★ | M:N 역방향 populate 가 부모마다 자식 전체를 다시 훑음 |
-| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 206.9k★ | credential 삭제 완료 전 명령 종료 |
-| [angular#70977](https://github.com/angular/angular/pull/70977) · 101k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
-| [react#37699](https://github.com/facebook/react/pull/37699) · 250.8k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
+| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 207.3k★ | credential 삭제 완료 전 명령 종료 |
+| [angular#70977](https://github.com/angular/angular/pull/70977) · 101.1k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
+| [react#37699](https://github.com/facebook/react/pull/37699) · 251.2k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
 | [astro#17987](https://github.com/withastro/astro/pull/17987) · 63.2k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
-| [angular#70690](https://github.com/angular/angular/pull/70690) · 101k★ | 템플릿 파이프라인의 쓰기만 하는 컬렉션 |
+| [angular#70690](https://github.com/angular/angular/pull/70690) · 101.1k★ | 템플릿 파이프라인의 쓰기만 하는 컬렉션 |
 | [rollup#6506](https://github.com/rollup/rollup/pull/6506) · 26.3k★ | watch 재실행 결과를 안 기다림 |
 | [openstatus#2583](https://github.com/openstatusHQ/openstatus/pull/2583) · 9.2k★ | 페이지 monitor 검증 뒤 중복 조회 |
 | [mongoose#16474](https://github.com/Automattic/mongoose/pull/16474) · 27.5k★ | bulkSave 오류 문서 반복 매칭 |
@@ -85,12 +86,12 @@ npx fixearly
 | [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 36.7k★ | cart variant lookup O(n²) |
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.7k★ | translations batch match O(n²) |
 | [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.5k★ | growth stats 집계 3회 직렬 |
-| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 83.3k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 206.9k★ | resource-mapper schema validation O(n²) |
-| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.2k★ | user field validation O(n²) |
+| [vite#23114](https://github.com/vitejs/vite/pull/23114) · 83.4k★ | pure CSS 청크 선형 조회 |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 207.3k★ | resource-mapper schema validation O(n²) |
+| [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.3k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.9k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 1건 — [angular](https://github.com/angular/angular/pull/71267). **닫힌 것 26건.**
+**닫힌 것 27건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
