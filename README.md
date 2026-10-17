@@ -62,13 +62,13 @@ npx fixearly
 | [burn-my-windows#583](https://github.com/Schneegans/Burn-My-Windows/pull/583) · 3.1k★ | v26 설정 이전에서 flame·claw 키 이름 변경이 버려짐 |
 | [super-productivity#10607](https://github.com/super-productivity/super-productivity/pull/10607) · 22.9k★ | 채우기만 하고 읽지 않는 Map 3개 |
 | [tegaki#77](https://github.com/gkurt/tegaki/pull/77) · 3.2k★ | 손글씨 획 생성기의 쓰기만 하는 Map·Set |
-| [cline#14974](https://github.com/cline/cline/pull/14974) · 70.4k★ | 보내는 쪽이 사라진 구독 스트림 |
+| [cline#14974](https://github.com/cline/cline/pull/14974) · 70.5k★ | 보내는 쪽이 사라진 구독 스트림 |
 | [jupyterlab#20008](https://github.com/jupyterlab/jupyterlab/pull/20008) · 15.4k★ | 설정 검색이 중첩 속성을 못 찾는다 |
 | [readest#6687](https://github.com/readest/readest/pull/6687) · 25.3k★ | RAG 색인 상태 Map 쓰기만 함 |
 | [cherry-studio#21363](https://github.com/CherryHQ/cherry-studio/pull/21363) · 52.7k★ | 채우기만 하고 읽지 않는 Map 3개 |
 | [turborepo#14433](https://github.com/vercel/turborepo/pull/14433) · 31.2k★ | 중복 검사 Set 을 안 읽어 codemod 가 중복 이름을 만듦 |
 | [promptfoo#11464](https://github.com/promptfoo/promptfoo/pull/11464) · 26.1k★ | 실패 테스트 재실행이 추출 테스트마다 전부 다시 직렬화 |
-| [ghost#31019](https://github.com/TryGhost/Ghost/pull/31019) · 55.5k★ | 댓글 신고 이메일의 조회 3회 직렬 |
+| [ghost#31019](https://github.com/TryGhost/Ghost/pull/31019) · 55.6k★ | 댓글 신고 이메일의 조회 3회 직렬 |
 | [Babylon.js#18980](https://github.com/BabylonJS/Babylon.js/pull/18980) · 26.2k★ | 채우기만 하고 읽지 않는 Map |
 | [rollup#6534](https://github.com/rollup/rollup/pull/6534) · 26.3k★ | ES 청크 재내보내기 이름 반복 검색 |
 | [angular#71119](https://github.com/angular/angular/pull/71119) · 101.1k★ | ::ng-deep 감지 정규식 lastIndex 누수 |
@@ -76,7 +76,7 @@ npx fixearly
 | [mikro-orm#8392](https://github.com/mikro-orm/mikro-orm/pull/8392) · 9.3k★ | M:N 소유 측 populate 가 부모마다 자식 전체를 다시 훑고 indexOf 로 정렬 |
 | [orval#4254](https://github.com/orval-labs/orval/pull/4254) · 6.5k★ | 읽지 않는 Set 이 리팩터 뒤에 남음 |
 | [mikro-orm#8391](https://github.com/mikro-orm/mikro-orm/pull/8391) · 9.3k★ | M:N 역방향 populate 가 부모마다 자식 전체를 다시 훑음 |
-| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 207.7k★ | credential 삭제 완료 전 명령 종료 |
+| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 207.8k★ | credential 삭제 완료 전 명령 종료 |
 | [angular#70977](https://github.com/angular/angular/pull/70977) · 101.1k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
 | [react#37699](https://github.com/facebook/react/pull/37699) · 251.2k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
 | [astro#17987](https://github.com/withastro/astro/pull/17987) · 63.3k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
@@ -87,12 +87,12 @@ npx fixearly
 | [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 36.8k★ | 의존성 분할 안 미사용 Set |
 | [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
 | [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.6k★ | in-depth analytics 순차 await |
-| [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.5k★ | member 통계 안 미사용 Map |
+| [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.6k★ | member 통계 안 미사용 Map |
 | [medusa#16233](https://github.com/medusajs/medusa/pull/16233) · 36.8k★ | cart variant lookup O(n²) |
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 36.8k★ | translations batch match O(n²) |
-| [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.5k★ | growth stats 집계 3회 직렬 |
+| [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.6k★ | growth stats 집계 3회 직렬 |
 | [vite#23114](https://github.com/vitejs/vite/pull/23114) · 83.4k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 207.7k★ | resource-mapper schema validation O(n²) |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 207.8k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.3k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 40.9k★ | markdown import merge O(n²) |
 
