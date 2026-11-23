@@ -52,6 +52,7 @@ npx fixearly
 <!-- auto:impact -->
 | 머지 | 내용 |
 |---|---|
+| [Node.js#66647](https://github.com/nodejs/node/pull/66647) · 123.9k★ | 벤치마크가 잘못된 type 을 받아도 실패하지 않고 엉뚱한 값을 잼 |
 | [compiler-explorer#9609](https://github.com/compiler-explorer/compiler-explorer/pull/9609) · 19.2k★ | SPIR-V LLVM IR 창이 항상 에러 |
 | [astro#18149](https://github.com/withastro/astro/pull/18149) · 64.1k★ | sitemap 청크 URL 분류 O(n²) |
 | [kiss-translator#1287](https://github.com/fishjar/kiss-translator/pull/1287) · 13.5k★ | 입력 중 Alt+B가 숨긴 플로팅 버튼을 호출 |
@@ -66,14 +67,14 @@ npx fixearly
 | [ghost#31677](https://github.com/TryGhost/Ghost/pull/31677) · 55.9k★ | 댓글 스레드 그래프의 깊이 Map 쓰기만 함 |
 | [angular#71389](https://github.com/angular/angular/pull/71389) · 101.5k★ | ICU 를 한 번 잡은 뒤 다음 속성 번역의 ICU 를 놓침 |
 | [LaTeX-Workshop#5007](https://github.com/James-Yu/LaTeX-Workshop/pull/5007) · 12.4k★ | outline 설정을 바꿔도 캐시된 매크로 인자가 안 붙음 |
-| [ag-ui#3118](https://github.com/ag-ui-protocol/ag-ui/pull/3118) · 20.9k★ | 비동기 onNewMessage·onNewToolCall 훅을 기다리지 않음 |
+| [ag-ui#3118](https://github.com/ag-ui-protocol/ag-ui/pull/3118) · 21.1k★ | 비동기 onNewMessage·onNewToolCall 훅을 기다리지 않음 |
 | [wp-calypso#115382](https://github.com/Automattic/wp-calypso/pull/115382) · 12.7k★ | Google Workspace 첫해 할인 안내가 4년째 안 뜸 |
 | [SponsorBlock#2572](https://github.com/ajayyy/SponsorBlock/pull/2572) · 14.1k★ | 끝만 다른 미리 불러온 구간을 중복으로 보고 건너뜀 |
 | [Trilium#11949](https://github.com/TriliumNext/Trilium/pull/11949) · 39k★ | 불리언 라벨 저장을 기다리지 않음 |
 | [compiler-explorer#9241](https://github.com/compiler-explorer/compiler-explorer/pull/9241) · 19.2k★ | clang-query 도구 옵션이 compile_flags.txt 에 안 들어간다 |
 | [cytoscape.js#3527](https://github.com/cytoscape/cytoscape.js/pull/3527) · 11.3k★ | cose 레이아웃이 간선마다 노드 전체를 훑음 |
 | [strapi#27893](https://github.com/strapi/strapi/pull/27893) · 73.5k★ | try/catch 안 릴리즈 정리를 await 안 함 |
-| [react#37855](https://github.com/facebook/react/pull/37855) · 252.8k★ | gh 가 없어도 릴리즈 스크립트가 attestation 검증을 실행함 |
+| [react#37855](https://github.com/facebook/react/pull/37855) · 252.9k★ | gh 가 없어도 릴리즈 스크립트가 attestation 검증을 실행함 |
 | [angular#71267](https://github.com/angular/angular/pull/71267) · 101.5k★ | output 마이그레이션 ID 의 .d.ts 정규화 결과를 버림 |
 | [Babylon.js#18990](https://github.com/BabylonJS/Babylon.js/pull/18990) · 26.4k★ | 인스펙터 v2 애니메이션 창이 자식 애니메이션을 버림 |
 | [burn-my-windows#583](https://github.com/Schneegans/Burn-My-Windows/pull/583) · 3.1k★ | v26 설정 이전에서 flame·claw 키 이름 변경이 버려짐 |
@@ -81,7 +82,7 @@ npx fixearly
 | [tegaki#77](https://github.com/gkurt/tegaki/pull/77) · 3.3k★ | 손글씨 획 생성기의 쓰기만 하는 Map·Set |
 | [cline#14974](https://github.com/cline/cline/pull/14974) · 71.8k★ | 보내는 쪽이 사라진 구독 스트림 |
 | [jupyterlab#20008](https://github.com/jupyterlab/jupyterlab/pull/20008) · 15.4k★ | 설정 검색이 중첩 속성을 못 찾는다 |
-| [readest#6687](https://github.com/readest/readest/pull/6687) · 26.5k★ | RAG 색인 상태 Map 쓰기만 함 |
+| [readest#6687](https://github.com/readest/readest/pull/6687) · 26.6k★ | RAG 색인 상태 Map 쓰기만 함 |
 | [cherry-studio#21363](https://github.com/CherryHQ/cherry-studio/pull/21363) · 53.7k★ | 채우기만 하고 읽지 않는 Map 3개 |
 | [turborepo#14433](https://github.com/vercel/turborepo/pull/14433) · 31.4k★ | 중복 검사 Set 을 안 읽어 codemod 가 중복 이름을 만듦 |
 | [promptfoo#11464](https://github.com/promptfoo/promptfoo/pull/11464) · 27.5k★ | 실패 테스트 재실행이 추출 테스트마다 전부 다시 직렬화 |
@@ -93,15 +94,15 @@ npx fixearly
 | [mikro-orm#8392](https://github.com/mikro-orm/mikro-orm/pull/8392) · 9.3k★ | M:N 소유 측 populate 가 부모마다 자식 전체를 다시 훑고 indexOf 로 정렬 |
 | [orval#4254](https://github.com/orval-labs/orval/pull/4254) · 6.6k★ | 읽지 않는 Set 이 리팩터 뒤에 남음 |
 | [mikro-orm#8391](https://github.com/mikro-orm/mikro-orm/pull/8391) · 9.3k★ | M:N 역방향 populate 가 부모마다 자식 전체를 다시 훑음 |
-| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 211.6k★ | credential 삭제 완료 전 명령 종료 |
+| [n8n#40103](https://github.com/n8n-io/n8n/pull/40103) · 211.8k★ | credential 삭제 완료 전 명령 종료 |
 | [angular#70977](https://github.com/angular/angular/pull/70977) · 101.5k★ | signal 입력 마이그레이션의 쓰기만 하는 Set |
-| [react#37699](https://github.com/facebook/react/pull/37699) · 252.8k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
+| [react#37699](https://github.com/facebook/react/pull/37699) · 252.9k★ | React 컴파일러 패스의 쓰기만 하는 컬렉션 |
 | [astro#17987](https://github.com/withastro/astro/pull/17987) · 64.1k★ | 빌드에서 쓰기만 하는 페이지 입력 집합 |
 | [angular#70690](https://github.com/angular/angular/pull/70690) · 101.5k★ | 템플릿 파이프라인의 쓰기만 하는 컬렉션 |
 | [rollup#6506](https://github.com/rollup/rollup/pull/6506) · 26.3k★ | watch 재실행 결과를 안 기다림 |
 | [openstatus#2583](https://github.com/openstatusHQ/openstatus/pull/2583) · 9.3k★ | 페이지 monitor 검증 뒤 중복 조회 |
 | [mongoose#16474](https://github.com/Automattic/mongoose/pull/16474) · 27.5k★ | bulkSave 오류 문서 반복 매칭 |
-| [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 37.1k★ | 의존성 분할 안 미사용 Set |
+| [pnpm#14032](https://github.com/pnpm/pnpm/pull/14032) · 37.2k★ | 의존성 분할 안 미사용 Set |
 | [rollup#6482](https://github.com/rollup/rollup/pull/6482) · 26.3k★ | 청크 렌더 안 미사용 Map |
 | [typebot#2572](https://github.com/baptisteArno/typebot.io/pull/2572) · 10.6k★ | in-depth analytics 순차 await |
 | [ghost#29831](https://github.com/TryGhost/Ghost/pull/29831) · 55.9k★ | member 통계 안 미사용 Map |
@@ -109,11 +110,11 @@ npx fixearly
 | [medusa#16188](https://github.com/medusajs/medusa/pull/16188) · 37.4k★ | translations batch match O(n²) |
 | [ghost#29704](https://github.com/TryGhost/Ghost/pull/29704) · 55.9k★ | growth stats 집계 3회 직렬 |
 | [vite#23114](https://github.com/vitejs/vite/pull/23114) · 84k★ | pure CSS 청크 선형 조회 |
-| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 211.6k★ | resource-mapper schema validation O(n²) |
+| [n8n#34899](https://github.com/n8n-io/n8n/pull/34899) · 211.8k★ | resource-mapper schema validation O(n²) |
 | [nocodb#14309](https://github.com/nocodb/nocodb/pull/14309) · 65.6k★ | user field validation O(n²) |
 | [outline#13117](https://github.com/outline/outline/pull/13117) · 41.3k★ | markdown import merge O(n²) |
 
-승인 후 머지 대기 1건 — [Node.js](https://github.com/nodejs/node/pull/66647). **닫힌 것 30건.**
+**닫힌 것 30건.**
 <!-- /auto:impact -->
 
 이긴 것과 진 것 전부는 [IMPACT.md](https://github.com/m1kapp/fixearly/blob/main/IMPACT.md) 에 있습니다.
